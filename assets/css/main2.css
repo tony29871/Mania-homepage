@@ -3,3 +3,29 @@
     margin-top: -4px;
     margin-left: -14px;
 }
+
+#m_home:hover::after{
+    content:"\f2dc";
+    font-family:"Font Awesome 5 Free";
+}
+
+
+#m_intro:hover::after{
+    content:"\f15c";
+    font-family:"Font Awesome 5 Free";
+}
+
+#m_executives:hover::after{
+    content:"\f2b9";
+    font-family:"Font Awesome 5 Free";
+}
+
+#m_calendar:hover::after{
+    content:"\f073";
+    font-family:"Font Awesome 5 Free";
+}
+
+#m_gallery:hover::after{
+    content:"\f302";
+    font-family:"Font Awesome 5 Free";
+}

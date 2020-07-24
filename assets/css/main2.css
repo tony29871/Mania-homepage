@@ -181,7 +181,15 @@
     margin-top: 4rem;
     font-size: 14px;
     padding-left: 8rem;
+    position: relative;
 }
+    #page img{
+        width: 80px;
+        position: absolute;
+        right: 5rem;
+        bottom: 2rem;
+    }
+
 
 #corp{
     grid-area: corp;

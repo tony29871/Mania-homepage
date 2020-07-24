@@ -1,9 +1,10 @@
 
 .content {
-    animation: fadein 0.75s ease-out 0.4s;
-    -moz-animation: fadein 0.75s ease-out 0.4s; 
-    -webkit-animation: fadein 0.75s ease-out 0.4s; 
-    -o-animation: fadein 0.75s ease-out 0.4s ;
+    visibility: hidden;
+    animation: fadein 0.75s ease-out 0.4s forwards;
+    -moz-animation: fadein 0.75s ease-out 0.4s forwards; 
+    -webkit-animation: fadein 0.75s ease-out 0.4s forwards; 
+    -o-animation: fadein 0.75s ease-out 0.4s forwards;
 } 
 
 #bannerlogo {
@@ -98,9 +99,62 @@
 		"where page"
 		"where page"
         "corp corp";
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 7fr 4fr;
     grid-template-rows: 3fr 3fr 1fr;
 }
+    #footer a{
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.75);
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    #footer .site{
+        font-weight: 500;
+    }
+
+    #footer a:hover{
+        animation: fadecolor 0.35s forwards;
+    }
+
+    @keyframes fadecolor {
+        0%{
+            color: rgba(255, 255, 255, 0.75);
+        }
+        100%{
+            color: rgba(255, 255, 255);
+
+        }
+    }
+    @-moz-keyframes fadecolor { /* Firefox */
+            0%{
+            color: rgba(255, 255, 255, 0.75);
+        }
+        100%{
+            color: rgba(255, 255, 255);
+
+        }
+    }
+    @-webkit-keyframes fadecolor { /* Safari and Chrome */
+            0%{
+            color: rgba(255, 255, 255, 0.75);
+        }
+        100%{
+            color: rgba(255, 255, 255);
+
+        }
+    }
+    @-o-keyframes fadecolor { /* Opera */
+            0%{
+            color: rgba(255, 255, 255, 0.75);
+        }
+        100%{
+            color: rgba(255, 255, 255);
+
+        }
+    }
+    
+
 
 #where{
     grid-area: where;
@@ -109,13 +163,24 @@
     border-right: 1px solid rgb(122, 121, 121);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    position: relative;
 }
+
+    .fa-map-marker-alt, .fa-comments{
+        font-size: 16px;
+    }
+
+    #where .button{
+        position: absolute;
+        right: 3rem;
+        bottom: 0.2rem;
+    }
 
 #page{
     grid-area: page;
-    padding-top: 4rem;
+    margin-top: 4rem;
     font-size: 14px;
-    padding-left: 2.5rem;
+    padding-left: 8rem;
 }
 
 #corp{
@@ -127,5 +192,7 @@
     border-top: 1px solid rgb(122, 121, 121);
     margin-left: 6rem;
     margin-right: 6rem;
-
 }
+    #corp a{
+        font-size: 10px;
+    }

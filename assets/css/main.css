@@ -3531,7 +3531,6 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -3684,10 +3683,10 @@
 			-webkit-transition: height 0.2s ease;
 			-ms-transition: height 0.2s ease;
 			transition: height 0.2s ease;
-			-moz-animation: more 0.75s ease-out 1s forwards;
-			-webkit-animation: more 0.75s ease-out 1s forwards;
-			-ms-animation: more 0.75s ease-out 1s forwards;
-			animation: more 0.75s ease-out 1s forwards;
+			-moz-animation: more 0.75s ease-out 0.5s forwards;	
+			-webkit-animation: more 0.75s ease-out 0.5s forwards;
+			-ms-animation: more 0.75s ease-out 0.5s forwards;
+			animation: more 0.75s ease-out 0.5s forwards;
 			background-color: rgba(255, 255, 255, 0.15);
 			border: 0;
 			border-radius: 1em 1em 0 0;

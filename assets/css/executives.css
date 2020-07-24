@@ -1,0 +1,49 @@
+#bannerlogo {
+    width: 100px;
+    margin-top: -4px;
+    margin-left: -14px;
+}
+
+.executivesbox {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "img what";
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 70px;
+}
+
+
+.exwhat {
+    grid-area:what;
+    font-size: 15px;
+    position: inline;
+    margin-top: 5%;
+    margin-left: 105px;
+
+}
+.executivesbox img {
+    grid-area: img;
+    position: relative;
+    display: inline-block;
+    border-radius: 70%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-left:20% ;
+}
+
+.exname {
+    font-size: 23px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.exdetail {
+    font-size: 16px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+

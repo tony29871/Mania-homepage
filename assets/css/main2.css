@@ -1,31 +1,89 @@
+.content {
+    animation: fadein 0.75s ease-out 0.4s;
+    -moz-animation: fadein 0.75s ease-out 0.4s; 
+    -webkit-animation: fadein 0.75s ease-out 0.4s; 
+    -o-animation: fadein 0.75s ease-out 0.4s ;
+} 
+
 #bannerlogo {
     width: 100px;
     margin-top: -4px;
     margin-left: -14px;
 }
 
+
+    @keyframes fadein {
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
+    @-o-keyframes fadein { /* Opera */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
+    
+
+
+
 #m_home:hover::after{
     content:"\f2dc";
     font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
 }
 
 
 #m_intro:hover::after{
     content:"\f15c";
     font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
 }
 
 #m_executives:hover::after{
     content:"\f2b9";
     font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
 }
 
 #m_calendar:hover::after{
     content:"\f073";
     font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
 }
 
 #m_gallery:hover::after{
     content:"\f302";
     font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
 }

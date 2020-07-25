@@ -186,21 +186,35 @@
     #page img{
         width: 80px;
         position: absolute;
-        right: 5rem;
+        right: 4rem;
         bottom: 2rem;
     }
 
 
 #corp{
     grid-area: corp;
-    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "lion text";
+    grid-template-columns: 9fr 11fr;
     margin-bottom: 10px;
     padding-top:7px;
     font-size: 10px;
     border-top: 1px solid rgb(122, 121, 121);
     margin-left: 6rem;
     margin-right: 6rem;
+    position: relative;
 }
     #corp a{
         font-size: 10px;
+    }
+
+    #corp img{
+        grid-area: lion;
+        width: 30px;
+        position: absolute;
+        right: 4px;
+    }
+    #corp .text{
+        grid-area: text;
     }

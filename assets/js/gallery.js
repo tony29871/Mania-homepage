@@ -23,5 +23,5 @@ $(function() {
             showOne(id_attr);
         }
     }); 
-
 });
+

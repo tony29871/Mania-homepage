@@ -216,3 +216,13 @@
 .bigPicture img {
     width:600px;
 }
+
+.active {
+	background-color: #a09e9e;
+	color : black;
+}
+
+.active:hover {
+	background-color: #5a5a5a;
+	color : black;
+}

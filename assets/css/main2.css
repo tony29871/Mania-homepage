@@ -89,6 +89,11 @@
     font-family:"Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
+#m_apply:hover::after{
+    content:"\f044";
+    font-family:"Font Awesome 5 Free";
+    animation: fadein 0.7s;
+}
 
 /* footer */
 #footer{
@@ -109,6 +114,7 @@
         font-size: 15px;
     }
 
+    
     #footer .site{
         font-weight: 500;
     }
@@ -191,6 +197,11 @@
         right: 4rem;
         bottom: 2rem;
     }
+
+    #page #linked_page{
+        padding-left: 3rem;
+        padding-top:1rem;
+    } 
 
 
 #corp{

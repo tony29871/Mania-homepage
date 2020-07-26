@@ -14,6 +14,19 @@
 		<link rel="stylesheet" href="assets/css/introduction.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 		<link rel="stylesheet" href="assets/css/gallery.css"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/YouTubePopUp.css">
+		<script type="text/javascript" src="assets/js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/YouTubePopUp.jquery.js"></script>
+		<script type="text/javascript">
+		  jQuery(function(){
+			  jQuery("a.bla-1").YouTubePopUp();
+			  jQuery("a.bla-2").YouTubePopUp();
+			  jQuery("a.bla-3").YouTubePopUp();
+			  jQuery("a.bla-4").YouTubePopUp();
+
+		  });
+		</script>
 	</head>
 	<body class="subpage">
 
@@ -32,7 +45,7 @@
 				<li><a href="executives.html" id="m_executives">임원진 </a></li>
 				<li><a href="plan.html" id="m_calendar">연간계획 </a></li>
 				<li><a href="gallery.html"id="m_gallery">갤러리 </a></li>
-				<li><a id="m_apply" href="https://docs.google.com/forms/d/e/1FAIpQLSfZXnqvqNrIFNm0X2ybVy2TWmy3gHLqZMUk2_pU8ac4PMeR2Q/viewform" target='blank'>지원하기 </a></li>
+				<li><a href="elements.html">Elements</a></li>
 			</ul>
 		</nav>
 		<!-- Content -->
@@ -57,9 +70,24 @@
 												<li class="itemli"><a href="#" data-tag="all" class="button active" id="all">All</a></li>
 												<li class="itemli"><a href="#" data-tag="people" class="button" id="1920">1920</a></li>
 												<li class="itemli"><a href="#" data-tag="people" class="button" id="past">지난 사진</a></li>
+												<li class="itemli"><a href="#" data-tag="video" class="button" id="video">홍보 영상</a></li>
+
 											</ul>
 										</header>
 										<div class="content">
+											<div class="media all video">
+												<a class="bla-1" href="https://www.youtube.com/watch?v=Fea4CjEqr5U"><img src="images/영상/1718.jpg" /></a>
+											</div>
+											<div class="media all video">
+												<a class="bla-2" href="https://youtu.be/GBZ1CPq9rBI"><img src="images/영상/1819.jpg" /></a>
+											</div>
+											<div class="media all video">
+												<a class="bla-3" href="https://www.youtube.com/watch?v=325nzpxVUmU"><img src="images/영상/homecoming.jpg" /></a>
+											</div>
+											<div class="media all video">
+												<a class="bla-4" href="https://www.youtube.com/watch?v=IVjULDs7FL8"><img src="images/영상/1920.jpg" /></a>
+											</div>
+											
 											<div class="media all 1920">
 												<a href="images/1920 사진/1920_1.jpg"><img src="images/썸네일/1920_1.jpg" alt="" title="This right here is a caption." /></a>
 											</div>
@@ -281,7 +309,6 @@
 				</div>
 			</section>
 
-			
 			<footer id ="footer">
 				<div id = "where">
 					<i class="fas fa-map-marker-alt"> 오시는 길</i><br>
@@ -296,15 +323,13 @@
 					율전 부회장(김지수): zxu0108 <i class="fas fa-sms"></i><br>
 				</div>
 				<div id = "page">
-					<i class="fas fa-link">  관련 사이트</i><br>
-					<p id="linked_page">
-						<a href="https://www.instagram.com/mania_skkusnowboardteam/?hl=ko"><i class="fab fa-instagram site">  MANIA 인스타</i><br></a>
-						<a href="https://www.facebook.com/groups/SKKUsnowboardMANIA"><i class="fab fa-facebook site">  MANIA 페이스북</i><br></a>
-						<br><br>
-						<a href="https://www.instagram.com/kusbf2021/?hl=ko"><i class="fab fa-instagram site">  KUSBF 인스타</i><br></a>
-						<a href="https://phoenixhnr.co.kr/page/main/pyeongchang?q%5BhmpgDivCd%5D=PP&page=1&size=2"><i class="fas fa-snowboarding"> <span class="site">휘닉스파크 사이트</span></i><br></a>
-						<img src="images/매니아 로고/maina_tri_logo-removebg.png">
-					</p>
+					<!-- <i class="fas fa-file"> 관련 사이트</i><br><br> -->
+					<a href="https://www.instagram.com/mania_skkusnowboardteam/?hl=ko"><i class="fab fa-instagram site">  MANIA 인스타</i><br></a>
+					<a href="https://www.facebook.com/groups/SKKUsnowboardMANIA"><i class="fab fa-facebook site">  MANIA 페이스북</i><br></a>
+					<p></p>
+					<a href="https://www.instagram.com/kusbf2021/?hl=ko"><i class="fab fa-instagram site">  KUSBF 인스타</i><br></a>
+					<a href="https://phoenixhnr.co.kr/page/main/pyeongchang?q%5BhmpgDivCd%5D=PP&page=1&size=2"><i class="fas fa-snowboarding"> <span class="site">휘닉스파크 사이트</span></i><br></a>
+					<img src="images/매니아 로고/maina_tri_logo-removebg.png">
 				</div>
 		
 				<div id ="corp">
@@ -314,7 +339,6 @@
 				</div>
 			</footer>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>

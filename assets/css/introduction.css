@@ -3,3 +3,44 @@
     margin-top: -4px;
     margin-left: -14px;
 }
+
+h3{
+    margin-top: 15px;
+    margin-bottom: 3px;
+
+}
+    h3::before{
+        content:" \f7ce";
+        font-family:"Font Awesome 5 Free";
+    }
+    h3::after{
+        content:" \f7ce";
+        font-family:"Font Awesome 5 Free";
+    }
+
+#c_title{
+    padding-left: 7px;
+    color:rgb(233, 233, 233);
+}
+    #c_title::before{
+        content:" \f2dc";
+        font-family:"Font Awesome 5 Free";
+    }
+    
+
+#c_content{
+    padding-top:5px;
+    padding-left: 17px;
+    padding-bottom: 15px;
+}
+
+#c_sharp{
+    font-weight: 600;
+    display: inline-block;
+    width:100px;
+}
+
+#c_histiory{
+    padding-left:7px;
+    font-weight: 600;
+}

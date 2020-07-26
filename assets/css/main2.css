@@ -93,7 +93,7 @@
 /* footer */
 #footer{
     width: auto;
-    height: 300px;
+    height: 20%;
     display: grid;
     grid-template-areas:
 		"where page"
@@ -158,12 +158,13 @@
 
 #where{
     grid-area: where;
-    padding-left: 8rem;
     font-size: 14px;
     border-right: 1px solid rgb(122, 121, 121);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     position: relative;
+    margin-top : 5%;
+    margin-left : 10%;
+    margin-right : 5%;
+    padding : 0% 5% 5% 5%;
 }
 
     .fa-map-marker-alt, .fa-comments{
@@ -178,10 +179,11 @@
 
 #page{
     grid-area: page;
-    margin-top: 4rem;
     font-size: 14px;
-    padding-left: 8rem;
     position: relative;
+    margin-top : 10%;
+    margin-left : 10%;
+    margin-right : 5%;
 }
     #page img{
         width: 80px;
@@ -196,14 +198,13 @@
     display: grid;
     grid-template-areas:
         "lion text";
-    grid-template-columns: 9fr 11fr;
     margin-bottom: 10px;
     padding-top:7px;
     font-size: 10px;
     border-top: 1px solid rgb(122, 121, 121);
-    margin-left: 6rem;
-    margin-right: 6rem;
     position: relative;
+    margin-left: 8%;
+    margin-right: 8%;
 }
     #corp a{
         font-size: 10px;
@@ -218,6 +219,7 @@
     #corp .text{
         grid-area: text;
     }
+    
 
     #mania_yoen{
         font-size: 11px;
@@ -273,6 +275,6 @@
             right: 0.52em;
             bottom: -0.53em
         }
-html{
-    scroll-behavior: smooth;
-}
+    html{
+        scroll-behavior: smooth;
+    }

@@ -26,6 +26,7 @@
         "what img";
     grid-auto-columns: 5fr 4fr;
     margin-bottom: 70px;
+    padding: 3%;
 }
 
 .timebox:nth-child(even){
@@ -68,6 +69,7 @@
     margin-left: 10%;
 }
 
+
 .tmwhat {
     grid-area:what;
     position: relative;
@@ -78,6 +80,8 @@
     font-size: 15px;
     padding-top: 10%;
 }
+
+
 
 .act {
     font-size: 17px;

@@ -294,7 +294,7 @@
 
     #m_home:hover, #m_intro:hover, #m_executives:hover, #m_calendar:hover, #m_gallery:hover, #m_apply:hover  {
         background-color: #3d3d3d;
-        transition-delay: 0.05s;
+        transition: all 0.7s;
         font-family: 'Eoe_Zno_L';
         padding-left: 2em;
     }

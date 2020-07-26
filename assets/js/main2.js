@@ -12,3 +12,13 @@ init = () => {
 }
 
 init();
+
+function smoothhtml(){
+    const html =document.querySelector('html');
+    html.style.scrollBehavior = 'smooth';
+}
+
+function autohtml(){
+    const html =document.querySelector('html');
+    html.style.scrollBehavior = 'auto';
+}

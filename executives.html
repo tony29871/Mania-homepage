@@ -22,7 +22,9 @@
 			<header id="header" class="alt">
 				<div class="logo"><a href="main.html"><img id="bannerlogo" src="images/매니아 로고/skku_Mania_removebg.png"></a></div>
 				<a href="#menu"><span>Menu</span></a>
+				<a href="#Top" class="more"></a>
 			</header>
+			<span id="Top"></span>
 		<!-- Nav -->
 		<nav id="menu">
 			<ul class="links">
@@ -31,7 +33,7 @@
 				<li><a href="executives.html" id="m_executives">임원진 </a></li>
 				<li><a href="plan.html" id="m_calendar">연간계획 </a></li>
 				<li><a href="gallery.html"id="m_gallery">갤러리 </a></li>
-				<li><a href="elements.html">Elements</a></li>
+				<li><a id="m_apply" href="https://docs.google.com/forms/d/e/1FAIpQLSfZXnqvqNrIFNm0X2ybVy2TWmy3gHLqZMUk2_pU8ac4PMeR2Q/viewform">지원하기 </a></li>
 			</ul>
 		</nav>
 		<!-- Content -->
@@ -46,19 +48,19 @@
 						<header>
 							<h2>임원진</h2>
 							<a id= "season" class="button alt" onclick="change_Season()">시즌중</a> <a id ="not_season" class="button alt" onclick="change_notSeason()">비시즌</a>
-							<p>-MANIA의 임원진을 소개합니다.-<br>
-								<span id="manual"> 비시즌의 모습이 궁금하다면 클릭! </span>
+							<p>- MANIA의 임원진을 소개합니다 -<br>
+								<span id="manual">( <b>비시즌</b>의 모습이 궁금하다면 <b>클릭</b>! ) </span>
 							</p>
 							<br><br>
 						</header>
 						<div class = "content">
 							<div class = "executivesbox">
 								<img id="dosik" src="images/임원진/윤도식.jpg" >
-								<div class="exwhat">
+								<div class="exwhat" style = "margin-top: 5px;">
 									<div class = "exname">회장: 윤도식</div>
 									<div class = "exdetail">
 										-신소재 공학과 17학번<br>
-										- 보드와 차 둘다 갖고 싶어서 보드카 마시는 회장님<br>
+										- 보드와 차 둘다 갖고 싶어서 <b>보드</b>카 마시는 회장님<br>
 										&nbsp&nbsp&nbsp(회장은 항상 시즌중입니다) 
 									</div>
 								</div>
@@ -70,7 +72,7 @@
 									<div class = "exname">명륜 부회장: 김재현</div>
 									<div class = "exdetail"><p>
 										- 컴퓨터교육과 16학번<br>
-										- Boring한게 싫어 Boarding을 시작한 부회장
+										- Boring한게 싫어 <b>Boarding</b>을 시작한 부회장
 										</p>
 									</div>
 								</div>
@@ -82,7 +84,7 @@
 									<div class = "exname">율전 부회장: 김지수</div>
 									<div class = "exdetail">
 										- 건축공학과 17학번<br>
-										- 보드 타러 와서 보드게임 하는 부회장
+										- 보드 타러 와서 <b>보드</b>게임 하는 부회장
 									</div>
 								</div>								
 							</div>
@@ -92,7 +94,7 @@
 									<div class = "exname">홍보부장: 이승빈</div>
 									<div class = "exdetail">
 										- 전자전기공학과 18학번<br>
-										- 21세기에 맞춰 전동킥보드 타는 홍보부장
+										- 21세기에 맞춰 전동킥<b>보드</b> 타는 홍보부장
 									</div>
 								</div>								
 							</div>
@@ -102,7 +104,7 @@
 									<div class = "exname">총무: 최재영</div>
 									<div class = "exdetail">
 										- 교육학과 14학번<br>
-										- 화이트보드에 철저히 기록하는 총무
+										- 화이트<b>보드</b>에 철저히 기록하는 총무
 									</div>
 								</div>								
 							</div>
@@ -118,6 +120,7 @@
 				</div>
 			</section>
 
+			
 			<footer id ="footer">
 				<div id = "where">
 					<i class="fas fa-map-marker-alt"> 오시는 길</i><br>
@@ -132,13 +135,15 @@
 					율전 부회장(김지수): zxu0108 <i class="fas fa-sms"></i><br>
 				</div>
 				<div id = "page">
-					<!-- <i class="fas fa-file"> 관련 사이트</i><br><br> -->
-					<a href="https://www.instagram.com/mania_skkusnowboardteam/?hl=ko"><i class="fab fa-instagram site">  MANIA 인스타</i><br></a>
-					<a href="https://www.facebook.com/groups/SKKUsnowboardMANIA"><i class="fab fa-facebook site">  MANIA 페이스북</i><br></a>
-					<p></p>
-					<a href="https://www.instagram.com/kusbf2021/?hl=ko"><i class="fab fa-instagram site">  KUSBF 인스타</i><br></a>
-					<a href="https://phoenixhnr.co.kr/page/main/pyeongchang?q%5BhmpgDivCd%5D=PP&page=1&size=2"><i class="fas fa-snowboarding"> <span class="site">휘닉스파크 사이트</span></i><br></a>
-					<img src="images/매니아 로고/maina_tri_logo-removebg.png">
+					<i class="fas fa-link"></i> 관련 사이트<br>
+					<p id="linked_page">
+						<a href="https://www.instagram.com/mania_skkusnowboardteam/?hl=ko"><i class="fab fa-instagram site">  MANIA 인스타</i><br></a>
+						<a href="https://www.facebook.com/groups/SKKUsnowboardMANIA"><i class="fab fa-facebook site">  MANIA 페이스북</i><br></a>
+						<br><br>
+						<a href="https://www.instagram.com/kusbf2021/?hl=ko"><i class="fab fa-instagram site">  KUSBF 인스타</i><br></a>
+						<a href="https://phoenixhnr.co.kr/page/main/pyeongchang?q%5BhmpgDivCd%5D=PP&page=1&size=2"><i class="fas fa-snowboarding"> <span class="site">휘닉스파크 사이트</span></i><br></a>
+						<img src="images/매니아 로고/maina_tri_logo-removebg.png">
+					</p>
 				</div>
 		
 				<div id ="corp">

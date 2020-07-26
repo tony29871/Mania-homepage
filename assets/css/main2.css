@@ -101,6 +101,7 @@
         "corp corp";
     grid-template-columns: 7fr 4fr;
     grid-template-rows: 3fr 3fr 1fr;
+    font-family: 'Eoe_Zno_L'
 }
     #footer a{
         font-style: normal;
@@ -165,6 +166,7 @@
     margin-left : 10%;
     margin-right : 5%;
     padding : 0% 5% 5% 5%;
+    font-family: 'Eoe_Zno_L'
 }
 
     .fa-map-marker-alt, .fa-comments{

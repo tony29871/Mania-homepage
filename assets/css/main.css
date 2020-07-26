@@ -26,9 +26,11 @@
 		font-family: 'S-CoreDream-6Bold';
 	}
 
-	p, a {
+	p, a{
 		font-family: 'Eoe_Zno_L'
 	}
+
+	
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;

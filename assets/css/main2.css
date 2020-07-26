@@ -106,6 +106,7 @@
         "corp corp";
     grid-template-columns: 7fr 4fr;
     grid-template-rows: 3fr 3fr 1fr;
+    font-family: 'Eoe_Zno_L'
 }
     #footer a{
         font-style: normal;
@@ -171,9 +172,10 @@
     margin-left : 10%;
     margin-right : 5%;
     padding : 0% 5% 5% 5%;
+    font-family: 'Eoe_Zno_L'
 }
 
-    .fa-map-marker-alt, .fa-comments{
+    .fa-map-marker-alt, .fa-comments, .fa-link{
         font-size: 16px;
     }
 
@@ -199,7 +201,7 @@
     }
 
     #page #linked_page{
-        padding-left: 3rem;
+        padding-left: 0;
         padding-top:1rem;
     } 
 
@@ -288,4 +290,15 @@
         }
     html{
         scroll-behavior: smooth;
+    }
+
+    #m_home:hover, #m_intro:hover, #m_executives:hover, #m_calendar:hover, #m_gallery:hover, #m_apply:hover  {
+        background-color: #3d3d3d;
+        transition-delay: 0.05s;
+        font-family: 'Eoe_Zno_L';
+        padding-left: 2em;
+    }
+
+    #m_home, #m_intro, #m_executives, #m_calendar, #m_gallery, #m_apply {
+        padding-left: 2em;
     }

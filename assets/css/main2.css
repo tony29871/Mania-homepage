@@ -218,3 +218,7 @@
     #corp .text{
         grid-area: text;
     }
+
+    #mania_yoen{
+        font-size: 11px;
+    }

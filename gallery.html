@@ -14,6 +14,15 @@
 		<link rel="stylesheet" href="assets/css/introduction.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 		<link rel="stylesheet" href="assets/css/gallery.css"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/YouTubePopUp.css">
+		<script type="text/javascript" src="assets/js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/YouTubePopUp.jquery.js"></script>
+		<script type="text/javascript">
+		  jQuery(function(){
+			  jQuery("a.bla-1").YouTubePopUp();
+		  });
+		</script>
 	</head>
 	<body class="subpage">
 
@@ -57,9 +66,21 @@
 												<li class="itemli"><a href="#" data-tag="all" class="button active" id="all">All</a></li>
 												<li class="itemli"><a href="#" data-tag="people" class="button" id="1920">1920</a></li>
 												<li class="itemli"><a href="#" data-tag="people" class="button" id="past">지난 사진</a></li>
+												<li class="itemli"><a href="#" data-tag="video" class="button" id="video">홍보 영상</a></li>
+
 											</ul>
 										</header>
 										<div class="content">
+											<div class="media all video">
+												<a class="bla-1" href="https://www.youtube.com/watch?v=325nzpxVUmU"><img src="images/1920 사진/1920_1.jpg" /></a>
+											</div>
+											<div class="media all video">
+												<a class="bla-1" href="https://www.youtube.com/watch?v=325nzpxVUmU"><img src="images/1920 사진/1920_1.jpg" /></a>
+											</div>
+											<div class="media all video">
+												<a class="bla-1" href="https://www.youtube.com/watch?v=325nzpxVUmU"><img src="images/1920 사진/1920_1.jpg" /></a>
+											</div>
+											
 											<div class="media all 1920">
 												<a href="images/1920 사진/1920_1.jpg"><img src="images/썸네일/1920_1.jpg" alt="" title="This right here is a caption." /></a>
 											</div>
@@ -311,7 +332,6 @@
 				</div>
 			</footer>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>

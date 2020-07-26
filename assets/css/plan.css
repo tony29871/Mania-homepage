@@ -38,7 +38,7 @@
     position: inline;
     color: white;
     margin-top: 2%;
-
+    font-weight: bold;
 }
 .timebox img {
     grid-area: img;

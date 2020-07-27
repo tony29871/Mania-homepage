@@ -25,3 +25,24 @@ $(function() {
     }); 
 });
 
+ /* 이미지 클릭 시 */
+ var imageTagList = document.querySelectorAll('.all_img');
+    
+console.log(imageTagList)
+
+ for(var i=0;i<imageTagList.length;i++){
+     imageTagList[i].addEventListener('click',function(){
+         var modal = document.getElementById('img-modal');
+         var content = document.getElementById('img-modal-content');
+         modal.style.display='block';
+         content.src = this.dataset.img;
+     });
+ }
+    
+ /* close 버튼 클릭시*/
+ function imgModalClose(){
+     var modal = document.getElementById('img-modal');
+     var content = document.getElementById('img-modal-content');
+     modal.style.display="none";
+     content.src = '';
+ }

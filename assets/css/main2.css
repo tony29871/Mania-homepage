@@ -95,6 +95,11 @@
     animation: fadein 0.7s;
 }
 
+#gallery_a{
+    font-size: 14.5px;
+}
+
+
 /* footer */
 #footer{
     width: auto;

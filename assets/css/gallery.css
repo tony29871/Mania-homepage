@@ -218,13 +218,19 @@
 }
 
 .active {
-	background-color: #a09e9e;
+	background-color: #f0dede;
 	color : black;
 }
 
 .active:hover {
 	background-color: #5a5a5a;
 	color : black;
+}
+
+
+button.alt.active,
+.button.alt.active {
+	background-color: rgba(82, 82, 82, 0.9);
 }
 
 /* 모달창 */
@@ -296,6 +302,7 @@
         }
     }
 
+	
 	#img-modal > span {
 		position: absolute;
 		top: 15px;

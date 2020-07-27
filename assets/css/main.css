@@ -3758,20 +3758,20 @@
 			}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition: opacity 2.5s ease;
+			-webkit-transition: opacity 2.5s ease;
+			-ms-transition: opacity 2.5s ease;
+			transition: opacity 2.5s ease;
+			-moz-transition-delay: 0.6s;
+			-webkit-transition-delay: 0.6s;
+			-ms-transition-delay: 0.6s;
+			transition-delay: 0.6s;
 			content: '';
 			display: block;
 			background-color: #000;
 			height: 100%;
 			left: 0;
-			opacity: 0.45;
+			opacity: 0.4;
 			position: absolute;
 			top: 0;
 			width: 100%;

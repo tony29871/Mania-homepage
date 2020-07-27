@@ -51,6 +51,7 @@
     font-weight: bold;
     padding-bottom: 4%;
 }
+
 .timebox img {
     grid-area: img;
     position: relative;
@@ -69,7 +70,7 @@
 }
 
 .tmwhat {
-    grid-area:what;
+    grid-area: what;
     position: relative;
     margin-top: -1%;
     margin-bottom: 15%;
@@ -78,6 +79,11 @@
     font-size: 15px;
     padding-top: 10%;
 }
+
+.tmwhat:nth-child(odd) {
+    margin-right : 10%;
+}
+
 
 .act {
     font-size: 17px;

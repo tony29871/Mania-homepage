@@ -243,11 +243,58 @@
 	}
 
 	#img-modal > img {
-		margin: auto;
+		margin: auto;	
 		display: block;
 		width:auto;
 		max-height: 80%;
+		visibility: hidden;
+		animation: fadein 1s ease-out 0.4s forwards;
+		-moz-animation: fadein 1s ease-out 0.4s forwards; 
+		-webkit-animation: fadein 1s ease-out 0.4s forwards; 
+		-o-animation: fadein 1s ease-out 0.4s forwards;
 	}
+
+	@keyframes fadein {
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+
+            opacity: 1;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
+    @-o-keyframes fadein { /* Opera */
+        0%{
+          visibility: hidden;
+            opacity: 0;
+        }
+        100%{
+            visibility:visible;
+            opacity: 1;
+        }
+    }
 
 	#img-modal > span {
 		position: absolute;

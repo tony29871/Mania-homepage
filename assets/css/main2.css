@@ -307,3 +307,22 @@
     #m_home, #m_intro, #m_executives, #m_calendar, #m_gallery, #m_apply {
         padding-left: 2em;
     }
+
+
+    @media screen and (max-width: 736px) {
+    
+    /* footer */
+        #katalkID{
+            margin-left:40%;
+        }
+
+
+    /* 위로가기 */
+        header .more:before{
+            bottom: -0.3em;
+        }
+        
+        header .more {
+            background-color: rgba(0, 0, 0, 1);
+        }
+    }

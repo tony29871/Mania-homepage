@@ -28,7 +28,7 @@ function change_notSeason(){
     $('#dosik').css('opacity','0').stop().attr('src','images/임원진/윤도식.jpg').animate({opacity:1},700);
     $('#jaehyun').css('opacity','0').stop().attr('src','images/임원진/김재현.jpg').animate({opacity:1},700);
     $('#jisoo').css('opacity','0').stop().attr('src','images/임원진/김지수.jpg').animate({opacity:1},700);
-    $('#seoungbin').css('opacity','0').stop().attr('src','images/임원진/이승빈.jpg').animate({opacity:1},700);
+    $('#seuongbin').css('opacity','0').stop().attr('src','images/임원진/이승빈.jpg').animate({opacity:1},700);
     $('#jaeyoung').css('opacity','0').stop().attr('src','images/임원진/최재영.jpg').animate({opacity:1},700);
 }
 

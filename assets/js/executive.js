@@ -11,7 +11,7 @@ function change_Season(){
     $('#dosik').css('opacity','0').stop().attr('src','images/임원진/도식2.jpg').animate({opacity:1},700);
     $('#jaehyun').css('opacity','0').stop().attr('src','images/임원진/재현2.jpg').animate({opacity:1},700);
     $('#jisoo').css('opacity','0').stop().attr('src','images/임원진/지수2.jpg').animate({opacity:1},700);
-    $('#seoungbin').css('opacity','0').stop().attr('src','images/임원진/승빈3.jpg').animate({opacity:1},700);
+    $('#seuongbin').css('opacity','0').stop().attr('src','images/임원진/승빈3.JPG').animate({opacity:1},700);
     $('#jaeyoung').css('opacity','0').stop().attr('src','images/임원진/재영2.jpg').animate({opacity:1},700);
     // exe_img[0].src ="images/임원진/도식2.jpg"
     // exe_img[1].src ="images/임원진/재현2.JPG"

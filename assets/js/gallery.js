@@ -1,11 +1,11 @@
 let tabs = document.querySelector('.tabs')
 let buttons = document.querySelectorAll('.button')
 let content = document.querySelector('.content')
+let itemli = $('.itemli'); //각 버튼
 
-$(function() {        
-    let itemli = $('.itemli'); //각 버튼
+$(function active() {        
     //button active 클래스 전환
-    itemli.click(function () {
+    itemli.click(function trans() {
         $(this).find('a').addClass('active');
         itemli.not($(this)).find('a').removeClass('active');
     
@@ -25,10 +25,13 @@ $(function() {
     }); 
 });
 
+
+// itemli[0].click(trans());
+
  /* 이미지 클릭 시 */
  var imageTagList = document.querySelectorAll('.all_img');
     
-console.log(imageTagList)
+// console.log(imageTagList)
 
  for(var i=0;i<imageTagList.length;i++){
      imageTagList[i].addEventListener('click',function(){
@@ -46,3 +49,7 @@ console.log(imageTagList)
      modal.style.display="none";
      content.src = '';
  }
+
+$(document).ready(function(){
+ $("#1920start").trigger("click");
+});

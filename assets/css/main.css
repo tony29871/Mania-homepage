@@ -212,26 +212,6 @@ body {
     width: 80em;
 }
 
-@media screen and (max-width: 2800px) {
-    .container.\31 25\25 {
-        width: 100%;
-        max-width: 100em;
-        min-width: 80em;
-    }
-    .container.\37 5\25 {
-        width: 60em;
-    }
-    .container.\35 0\25 {
-        width: 40em;
-    }
-    .container.\32 5\25 {
-        width: 20em;
-    }
-    .container {
-        width: 80em;
-    }
-}
-
 @media screen and (max-width: 1680px) {
     .container.\31 25\25 {
         width: 100%;
@@ -3353,7 +3333,7 @@ body.subpage {
     background-color: transparent;
     color: #fdd1d1;
     cursor: default;
-    height: 4em;
+    height: 62px;
     left: 0;
     top: 0.5em;
     line-height: 4em;

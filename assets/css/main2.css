@@ -1,11 +1,10 @@
-
 .content {
     visibility: hidden;
     animation: fadein 0.75s ease-out 0.4s forwards;
-    -moz-animation: fadein 0.75s ease-out 0.4s forwards; 
-    -webkit-animation: fadein 0.75s ease-out 0.4s forwards; 
+    -moz-animation: fadein 0.75s ease-out 0.4s forwards;
+    -webkit-animation: fadein 0.75s ease-out 0.4s forwards;
     -o-animation: fadein 0.75s ease-out 0.4s forwards;
-} 
+}
 
 #bannerlogo {
     width: 100px;
@@ -13,316 +12,322 @@
     margin-left: -14px;
 }
 
-
-    @keyframes fadein {
-        0%{
-          visibility: hidden;
-            opacity: 0;
-        }
-        100%{
-            visibility:visible;
-
-            opacity: 1;
-        }
+@keyframes fadein {
+    0% {
+        visibility: hidden;
+        opacity: 0;
     }
-    @-moz-keyframes fadein { /* Firefox */
-        0%{
-          visibility: hidden;
-            opacity: 0;
-        }
-        100%{
-            visibility:visible;
-            opacity: 1;
-        }
+    100% {
+        visibility: visible;
+        opacity: 1;
     }
-    @-webkit-keyframes fadein { /* Safari and Chrome */
-        0%{
-          visibility: hidden;
-            opacity: 0;
-        }
-        100%{
-            visibility:visible;
-            opacity: 1;
-        }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    0% {
+        visibility: hidden;
+        opacity: 0;
     }
-    @-o-keyframes fadein { /* Opera */
-        0%{
-          visibility: hidden;
-            opacity: 0;
-        }
-        100%{
-            visibility:visible;
-            opacity: 1;
-        }
+    100% {
+        visibility: visible;
+        opacity: 1;
     }
-    
+}
 
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
 
+@-o-keyframes fadein {
+    /* Opera */
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
 
-#m_home:hover::after{
-    content:"\f2dc";
-    font-family:"Font Awesome 5 Free";
+#m_home:hover::after {
+    content: "\f2dc";
+    font-family: "Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
 
-
-#m_intro:hover::after{
-    content:"\f15c";
-    font-family:"Font Awesome 5 Free";
+#m_intro:hover::after {
+    content: "\f15c";
+    font-family: "Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
 
-#m_executives:hover::after{
-    content:"\f2b9";
-    font-family:"Font Awesome 5 Free";
+#m_executives:hover::after {
+    content: "\f2b9";
+    font-family: "Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
 
-#m_calendar:hover::after{
-    content:"\f073";
-    font-family:"Font Awesome 5 Free";
+#m_calendar:hover::after {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
 
-#m_gallery:hover::after{
-    content:"\f302";
-    font-family:"Font Awesome 5 Free";
-    animation: fadein 0.7s;
-}
-#m_apply:hover::after{
-    content:"\f044";
-    font-family:"Font Awesome 5 Free";
+#m_gallery:hover::after {
+    content: "\f302";
+    font-family: "Font Awesome 5 Free";
     animation: fadein 0.7s;
 }
 
-#gallery_a{
+#m_apply:hover::after {
+    content: "\f044";
+    font-family: "Font Awesome 5 Free";
+    animation: fadein 0.7s;
+}
+
+#gallery_a {
     font-size: 14.5px;
 }
 
 
 /* footer */
-#footer{
+
+#footer {
     width: auto;
     height: 20%;
     display: grid;
-    grid-template-areas:
-		"where page"
-		"where page"
-        "corp corp";
+    grid-template-areas: "where page" "where page" "corp corp";
     grid-template-columns: 7fr 4fr;
     grid-template-rows: 3fr 3fr 1fr;
     font-family: 'Eoe_Zno_L'
 }
-    #footer a{
-        font-style: normal;
+
+#footer a {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#footer .site {
+    font-weight: 500;
+}
+
+#footer a:hover {
+    animation: fadecolor 0.35s forwards;
+}
+
+@keyframes fadecolor {
+    0% {
         color: rgba(255, 255, 255, 0.75);
-        text-decoration: none;
-        font-size: 15px;
     }
-
-    
-    #footer .site{
-        font-weight: 500;
+    100% {
+        color: rgba(255, 255, 255);
     }
+}
 
-    #footer a:hover{
-        animation: fadecolor 0.35s forwards;
+@-moz-keyframes fadecolor {
+    /* Firefox */
+    0% {
+        color: rgba(255, 255, 255, 0.75);
     }
-
-    @keyframes fadecolor {
-        0%{
-            color: rgba(255, 255, 255, 0.75);
-        }
-        100%{
-            color: rgba(255, 255, 255);
-
-        }
+    100% {
+        color: rgba(255, 255, 255);
     }
-    @-moz-keyframes fadecolor { /* Firefox */
-            0%{
-            color: rgba(255, 255, 255, 0.75);
-        }
-        100%{
-            color: rgba(255, 255, 255);
+}
 
-        }
+@-webkit-keyframes fadecolor {
+    /* Safari and Chrome */
+    0% {
+        color: rgba(255, 255, 255, 0.75);
     }
-    @-webkit-keyframes fadecolor { /* Safari and Chrome */
-            0%{
-            color: rgba(255, 255, 255, 0.75);
-        }
-        100%{
-            color: rgba(255, 255, 255);
-
-        }
+    100% {
+        color: rgba(255, 255, 255);
     }
-    @-o-keyframes fadecolor { /* Opera */
-            0%{
-            color: rgba(255, 255, 255, 0.75);
-        }
-        100%{
-            color: rgba(255, 255, 255);
+}
 
-        }
+@-o-keyframes fadecolor {
+    /* Opera */
+    0% {
+        color: rgba(255, 255, 255, 0.75);
     }
-    
+    100% {
+        color: rgba(255, 255, 255);
+    }
+}
 
-
-#where{
+#where {
     grid-area: where;
     font-size: 14px;
     border-right: 1px solid rgb(122, 121, 121);
     position: relative;
-    margin-top : 5%;
-    margin-left : 10%;
-    margin-right : 5%;
-    padding : 0% 5% 5% 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 0% 5% 5% 5%;
     font-family: 'Eoe_Zno_L'
 }
 
-    .fa-map-marker-alt, .fa-comments, .fa-link{
-        font-size: 16px;
-    }
+.fa-map-marker-alt,
+.fa-comments,
+.fa-link {
+    font-size: 16px;
+}
 
-    #where .button{
-        position: absolute;
-        right: 3rem;
-        bottom: 0.2rem;
-    }
+#where .button {
+    position: absolute;
+    right: 3rem;
+    bottom: 0.2rem;
+}
 
-#page{
+#page {
     grid-area: page;
     font-size: 14px;
     position: relative;
-    margin-top : 10%;
-    margin-left : 10%;
-    margin-right : 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
 }
-    #page img{
-        width: 80px;
-        position: absolute;
-        right: 4rem;
-        bottom: 2rem;
-    }
 
-    #page #linked_page{
-        padding-left: 0;
-        padding-top:1rem;
-    } 
+#page img {
+    width: 80px;
+    position: absolute;
+    right: 4rem;
+    bottom: 2rem;
+}
 
+#page #linked_page {
+    padding-left: 0;
+    padding-top: 1rem;
+}
 
-#corp{
+#corp {
     grid-area: corp;
     display: grid;
-    grid-template-areas:
-        "lion text";
+    grid-template-areas: "lion text";
     margin-bottom: 10px;
-    padding-top:7px;
+    padding-top: 7px;
     font-size: 10px;
     border-top: 1px solid rgb(122, 121, 121);
     position: relative;
     margin-left: 8%;
     margin-right: 8%;
 }
-    #corp a{
-        font-size: 10px;
-    }
 
-    #corp img{
-        grid-area: lion;
-        width: 30px;
-        position: absolute;
-        right: 4px;
-    }
-    #corp .text{
-        grid-area: text;
-    }
-    
+#corp a {
+    font-size: 10px;
+}
 
-    #mania_yoen{
-        font-size: 11px;
-    }
+#corp img {
+    grid-area: lion;
+    width: 30px;
+    position: absolute;
+    right: 4px;
+}
 
+#corp .text {
+    grid-area: text;
+}
 
-    header .more {
-        -moz-transition: height 0.2s ease;
-        -webkit-transition: height 0.2s ease;
-        -ms-transition: height 0.2s ease;
-        transition: height 0.2s ease;
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 0;
-        border-radius: 100%;
-        color: rgba(255, 255, 255, 0.75);
-        display: block;
-        height: 2.5em;
-        right: 2.7%;
-        bottom: -1125%;
-        overflow: hidden;
-        position: absolute;
-        white-space: nowrap;
-        width: 2.5em;
-        z-index: 10;
-        border-radius: 100%;
-        text-decoration: none;
-    }
+#mania_yoen {
+    font-size: 11px;
+}
 
-        header .more:before {
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-font-smoothing: antialiased;
-            font-family: FontAwesome;
-            font-style: normal;
-            font-weight: normal;
-            text-transform: none !important;
-        }
+header .more {
+    -moz-transition: height 0.2s ease;
+    -webkit-transition: height 0.2s ease;
+    -ms-transition: height 0.2s ease;
+    transition: height 0.2s ease;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.75);
+    display: block;
+    position: fixed;
+    height: 2.5em;
+    right: 3%;
+    bottom: 3.5%;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 2.5em;
+    z-index: 10;
+    border-radius: 100%;
+    text-decoration: none;
+}
 
-        header .more:hover {
-            background: rgba(0,0,0,0.5) ;
-            color: rgba(255,255,255);
-            box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
-        }
+header .more:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+}
 
-            header .more:hover:before {
-                color: rgba(255, 255, 255);
-            }
+header .more:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255);
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.5);
+}
 
-        header .more:before {
-            content: '\f062';
-            color: #FFF;
-            font-size: 1.25em;
-            position: absolute;
-            right: 0.52em;
-            bottom: -0.53em
-        }
-    html{
-        scroll-behavior: smooth;
-    }
+header .more:hover:before {
+    color: rgba(255, 255, 255);
+}
 
-    #m_home:hover, #m_intro:hover, #m_executives:hover, #m_calendar:hover, #m_gallery:hover, #m_apply:hover  {
-        background-color: #3d3d3d;
-        transition: all 0.7s;
-        font-family: 'Eoe_Zno_L';
-        padding-left: 2em;
-    }
+header .more:before {
+    content: '\f062';
+    color: #FFF;
+    font-size: 1.25em;
+    position: absolute;
+    right: 0.52em;
+    bottom: -0.53em
+}
 
-    #m_home, #m_intro, #m_executives, #m_calendar, #m_gallery, #m_apply {
-        padding-left: 2em;
-    }
+html {
+    scroll-behavior: smooth;
+}
 
+#m_home:hover,
+#m_intro:hover,
+#m_executives:hover,
+#m_calendar:hover,
+#m_gallery:hover,
+#m_apply:hover {
+    background-color: #3d3d3d;
+    transition: all 0.7s;
+    font-family: 'Eoe_Zno_L';
+    padding-left: 2em;
+}
 
-    @media screen and (max-width: 736px) {
-    
+#m_home,
+#m_intro,
+#m_executives,
+#m_calendar,
+#m_gallery,
+#m_apply {
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 736px) {
     /* footer */
-        #katalkID{
-            margin-left:40%;
-        }
-
-
-    /* 위로가기 */
-        header .more:before{
-            bottom: -0.3em;
-        }
-        
-        header .more {
-            background-color: rgba(0, 0, 0, 1);
-        }
+    #katalkID {
+        margin-left: 40%;
     }
+    /* 위로가기 */
+    header .more:before {
+        bottom: -0.3em;
+    }
+    header .more {
+        background-color: rgba(0, 0, 0, 1);
+    }
+}

@@ -331,3 +331,35 @@ html {
         background-color: rgba(0, 0, 0, 1);
     }
 }
+
+@media screen and (max-width: 980px) {
+    #header {
+        height: 50px;
+        line-height: 50px;
+    }
+    #bannerlogo {
+        width: 80px;
+        margin-top: -4px;
+        margin-left: -14px;
+    }
+    header .more:before {
+        content: '\f062';
+        color: #FFF;
+        font-size: 1.25em;
+        position: absolute;
+        right: 0.52em;
+        bottom: -0.2em;
+    }
+    .secondline {
+        display: none;
+    }
+    .gallery {
+        padding: 0em;
+        min-height: 12em;
+    }
+    .post .more {
+        left: 84%;
+        margin-left: -1.5em;
+        margin-bottom: 1.8rem;
+    }
+}

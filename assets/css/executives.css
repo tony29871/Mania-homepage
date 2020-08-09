@@ -1,44 +1,36 @@
-#bannerlogo {
-    width: 100px;
-    margin-top: -4px;
-    margin-left: -14px;
+header h2 {
+    display: inline;
 }
 
-    header h2{
-        display: inline;
-    }
+header .button {
+    display: inline-block;
+    position: relative;
+    left: 65%;
+    margin-left: 8px;
+}
 
-    header .button{
-        display: inline-block;
-        position: relative;
-        left: 65%;
-        margin-left: 8px;
-    }
-
-    header #manual{
-        font-size: 14px;
-        margin-left: 1.5rem;
-    }
+header #manual {
+    font-size: 14px;
+    margin-left: 1.5rem;
+}
 
 .executivesbox {
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-areas:
-        "img what";
+    grid-template-areas: "img what";
     grid-template-columns: 1fr 2fr;
     margin-bottom: 70px;
 }
 
-
 .exwhat {
-    grid-area:what;
+    grid-area: what;
     font-size: 15px;
     position: inline;
     margin-top: 5%;
     margin-left: 105px;
-
 }
+
 .executivesbox img {
     grid-area: img;
     position: relative;
@@ -47,11 +39,8 @@
     overflow: hidden;
     width: 200px;
     height: 200px;
-    margin-left:20% ;
-
+    margin-left: 20%;
 }
-    
-
 
 .exname {
     font-size: 23px;
@@ -67,6 +56,17 @@
     margin-top: 5%;
 }
 
-#dosikbox{
-    top : 30px;
+#dosikbox {
+    top: 30px;
+}
+
+@media screen and (max-width: 980px) {
+    header .button {
+        display: inline-block;
+        position: relative;
+        left: 56%;
+        margin-left: 8px;
+        width: 80px;
+        padding-left: 18px;
+    }
 }

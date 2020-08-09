@@ -363,3 +363,29 @@ html {
         margin-bottom: 1.8rem;
     }
 }
+
+
+/* 모바일 모달창 */
+
+#modal {
+    display: none;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 80%;
+    font-size: 32px;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    padding: 10px;
+    border: 2px solid #E2E2E2;
+    z-Index: 9999;
+}
+
+#modal b {
+    color: black;
+}
+
+.js_close {
+    position: relative;
+    left: 75%;
+    font-size: 30px;
+}

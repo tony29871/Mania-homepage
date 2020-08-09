@@ -122,7 +122,8 @@ h2 {
 p,
 a,
 .act,
-.actcont {
+.actcont,
+#modal {
     font-family: 'Eoe_Zno_L'
 }
 

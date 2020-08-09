@@ -358,9 +358,7 @@ html {
         min-height: 12em;
     }
     .post .more {
-        left: 84%;
-        margin-left: -1.5em;
-        margin-bottom: 1.8rem;
+        display: none;
     }
 }
 

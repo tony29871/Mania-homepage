@@ -384,6 +384,10 @@ html {
     color: black;
 }
 
+#modal span {
+    color: #de6d6d;
+}
+
 .js_close {
     position: relative;
     left: 75%;
